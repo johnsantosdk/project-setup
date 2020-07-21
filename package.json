@@ -1,0 +1,34 @@
+{
+  "name": "app-backend-graphql-knex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpileOnly --ignore-watch node_modules --no-notify src/index.ts",
+    "start": "nodemon -e ts, src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.16.0",
+    "bcrypt": "5.0.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.2.1",
+    "graphql-import": "^0.7.1",
+    "jasonwebtoken": "8.5.1",
+    "jwt-simple": "^0.5.6",
+    "knex": "^0.21.2",
+    "mysql": "^2.16.0",
+    "tsconfig": "^7.0.0"
+  },
+  "devDependencies": {
+    "@prisma/cli": "2.2.2",
+    "@types/node": "12.12.50",
+    "@types/ws": "7.2.6",
+    "ts-node": "8.10.2",
+    "ts-node-dev": "1.0.0-pre.52",
+    "typescript": "3.9.6"
+  }
+}
